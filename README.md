@@ -10,7 +10,7 @@
 ![Found Item Section](Screenshots/found-item-page.png)
 
 ### View All Items page
-![View All items Section](Screenshots/ViewAll-items-page.png)
+![View All items Section](Screenshots/viewAll-items-page.png)
 
 ### Search By Keyword Page
 ![Search item by keyword Section](Screenshots/searchByKeyword-page.png)
