@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Found Item | Campus Lost & Found</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="auth-header">
+    <h1 class="app-title">Campus Lost & Found</h1>
+
+    <div class="auth-buttons">
+      <a href="index.html" class="btn-outline">Home</a>
+      <a href="all-posts.html" class="btn-primary">View All Posts</a>
+    </div>
+  </header>
+
+  
+  <main class="form-page">
+
+    <h2 class="page-title">Report Found Item</h2>
+
+    <form class="item-form">
+
+      <div class="form-group">
+        <label>Item Name</label>
+        <input type="text" id="itemName" placeholder="e.g. Wallet, Earphones" />
+      </div>
+
+      <div class="form-group">
+        <label>Category</label>
+        <select id="category">
+          <option value="">Select category</option>
+          <option>ID Card</option>
+          <option>Electronics</option>
+          <option>Books</option>
+          <option>Keys</option>
+          <option>Others</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Found Location</label>
+        <input type="text" id="location" placeholder="e.g. Hostel, Parking Area" />
+      </div>
+
+      <div class="form-group">
+        <label>Date Found</label>
+        <input type="date" id="date"/>
+      </div>
+
+      <div class="form-group full">
+        <label>Description</label>
+        <textarea id="description" placeholder="Condition, color, brand, any identifying details..."></textarea>
+      </div>
+
+      <div class="form-group full">
+        <label>Upload Item Image (optional)</label>
+        <input type="file" id="image" accept="image/*" />
+      </div>
+
+      <button type="submit" class="btn-primary full-width">
+        Submit Found Item
+      </button>
+
+    </form>
+
+  </main>
+  <script src="script.js"></script>
+
+</body>
+</html>
