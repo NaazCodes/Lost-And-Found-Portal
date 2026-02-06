@@ -1,10 +1,10 @@
 ## Screenshots
 
 ### Home Page 
-![Home Page](Screenshots/home.png)
+![Home Page](Screenshots/home-Page.png)
 
 ### Lost Item Page
-![Lost Item Section](Screenshots/lost-item-page.png)
+![Lost Item Section](Screenshots/lost-Item-page.png)
 
 ### Found Item Page
 ![Found Item Section](Screenshots/found-item-page.png)
